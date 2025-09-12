@@ -96,7 +96,7 @@ export default function Aboutus() {
         connected to their food.
       </motion.p>
 
-      {/* First Block */}
+
       <motion.div
         initial={{ opacity: 0, x: -50 }}
         whileInView={{ opacity: 1, x: 0 }}
@@ -185,7 +185,7 @@ export default function Aboutus() {
         </div>
       </motion.div>
 
-      {/* Shimmer Effect Style */}
+      {/* Effect Style */}
       <style jsx>{`
         .shimmer {
           background-size: 200% 200%;

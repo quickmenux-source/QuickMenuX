@@ -56,7 +56,7 @@ export default function Brands() {
         </p>
       </div>
 
-      {/* Brand Carousel */}
+      {/* Brand */}
       <div className="relative w-full overflow-x-auto max-w-7xl px-6 scroll-smooth snap-x scrollbar-hide">
         <motion.div
           className="flex gap-16 min-w-max"
@@ -79,7 +79,7 @@ export default function Brands() {
                 },
               }}
             >
-              {/* Glass-style brand card */}
+              {/* brand card */}
               <div className="relative w-full h-full flex items-center justify-center bg-white/10 rounded-lg shadow-md overflow-hidden backdrop-blur-md border border-white/20 group-hover:scale-105 transition duration-500">
                 <Image
                   src={brand.logo}
@@ -89,7 +89,7 @@ export default function Brands() {
                   className="grayscale group-hover:grayscale-0 object-contain"
                   loading="eager"
                 />
-                {/* Hover overlay */}
+                {/* Hover */}
                 <motion.div
                   className="absolute inset-0 bg-white/40 backdrop-blur-lg flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300"
                 >
